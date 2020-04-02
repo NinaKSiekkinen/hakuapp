@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    margin: 170px 250px;
+}
+html {
+  height: 100%;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 1em, rgba(127, 215, 245, 0.4) 0, rgba(127, 215, 245, 0.1) 2em, transparent 0, transparent 1em, rgba(127, 215, 245, 0.3) 0, rgba(127, 215, 245, 0.2) 4em, transparent 0, transparent 1em, rgba(192, 235, 250, 0.6) 0, rgba(192, 235, 250, 0.2) 2em), repeating-linear-gradient(45deg, transparent, transparent 1em, rgba(127, 215, 245, 0.4) 0, rgba(127, 215, 245, 0.1) 2em, transparent 0, transparent 1em, rgba(127, 215, 245, 0.3) 0, rgba(127, 215, 245, 0.2) 4em, transparent 0, transparent 1em, rgba(192, 235, 250, 0.4) 0, rgba(192, 235, 250, 0.1) 2em), #FFF;
+  background-blend-mode: multiply;
+}
+div{
+    background-color:#b2d3e6;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 60px;
+    opacity: 90%;
+}
+button.buttonStyle{
+    padding: 20px;
+    background-color: #d8e9f3;
+}
+#location{
+    border-style: inset inset none inset;
+    border-top-right-radius: 10px; border-top-left-radius: 10px;
+}
+#pv{
+    border-style: none inset none inset;
+}
+#LOB{
+    border-style: none inset none inset;
+}
+#search{
+    border-style: none inset inset inset;
+    border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;
+}
+h1{
+    background-color: #68a7ca;
+    border-style: solid;
+    border-radius: 10px;
+}
+#companyS{
+    border-style: inset;
+    border-radius: 10px;
+}
+
+/*Search results*/
+#results{
+    border-style: inset;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}

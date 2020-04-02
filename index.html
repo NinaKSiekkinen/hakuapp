@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <body>
+            <a href="index.html">
+            <img src="pics/haku.png" class="logo" width="300px">
+            </a>
+        <h1>Search by location and date of establishment</h1>
+        <div id="location">
+            <label for="Location">Location<br><br></label>
+            <select id="Location">
+                <option value="helsinki ">Helsinki</option>
+                <option value="espoo ">Espoo</option>
+                <option value="tampere ">Tampere</option>
+                <option value="vantaa ">Vantaa</option>
+                <option value="oulu ">Oulu</option>
+                <option value="turku ">Turku</option>
+                <option value="jyväskylä ">Jyväskylä</option>
+                <option value="lahti ">Lahti</option>
+            </select>
+        </div>
+
+        <div id="pv">
+            <label>Date<br></label>
+            <form>
+            <input type="date" id="pv1" name="pv1" value=""> -
+            <input type="date" id="pv2" name="pv2" value=""><br>
+            </form>
+        </div>
+
+        <div id=LOB>
+        <label for="LineOfBusiness">Line of business<br><br></label>
+        <select id="LineOfBusiness">
+        <option value="Agriculture, forestry and fishing">Agriculture, forestry and fishing</option>
+        <option value="Mining and quarrying">Mining and quarrying</option>
+        <option value="Manufacturing">Manufacturing</option>
+        <option value="Electricity, gas, steam and air conditioning supply">Electricity, gas, steam and air conditioning supply</option>
+        <option value="Water supply">Water supply</option>
+        <option value="Construction">Construction</option>
+        <option value="Wholesale and retail trade">Wholesale and retail trade</option>
+        <option value="Transportation and storage">Transportation and storage</option>
+        <option value="Accommodation and food service activities">Accommodation and food service activities</option>
+        <option value="Information and communication">Information and communication</option>
+        <option value="Financial and insurance activities">Financial and insurance activities</option>
+        <option value="Real estate activities">Real estate activities</option>
+        <option value="Professional, scientific and technical activities">Professional, scientific and technical activities</option>
+        <option value="Administrative and support service activities">Administrative and support service activities</option>
+        <option value="Public administration and defence">Public administration and defence</option>
+        <option value="Education">Education</option>
+        <option value="Human health and social work activities">Human health and social work activities</option>
+        <option value="Arts, entertainment and recreation">Arts, entertainment and recreation</option>
+        <option value="Other service activities">Other service activities</option>
+        <option value="Activities of households as employers">Activities of households as employers</option>
+        <option value="Activities of extraterritorial organisations and bodies">Activities of extraterritorial organisations and bodies</option>
+        <option value="Industry unknown">Industry unknown</option>
+
+
+        </select>
+        </div>
+
+        <div id= "search">
+        <button id="button1" class="buttonStyle" onclick="location.href='searchresults.html'">
+        Search
+        </button>
+        </div>
+        <h1>Search by company name</h1>
+        <div id="companyS">
+            <form>
+                <input type="text" id="BusinessName" name="BusinessName" value=""><br>
+            </form>
+        <div id= "search2">
+        <button id="button1" class="buttonStyle" 
+        onclick= "location.href = 'searchresults.html'">
+        Search
+        </button>
+        </div>
+
+
+    </body>
+
+</html>
